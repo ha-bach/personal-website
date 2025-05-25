@@ -20,10 +20,10 @@ const SideBar = () => {
             {/*  social media icons  */}
             <div className="flex justify-center my-5 items-center md:w-full space-x-5">
                 {/*TODO: change GitHub pfp*/}
-                <a href="https://github.com/ha-bach">
+                <a href="https://github.com/ha-bach" target="_blank" rel="noopener noreferrer">
                     <IoLogoGithub className="w-8 h-8 cursor-pointer"/>
                 </a>
-                <a href="https://www.linkedin.com/in/ha-bach/">
+                <a href="https://www.linkedin.com/in/ha-bach/" target="_blank" rel="noopener noreferrer">
                     <IoLogoLinkedin className="w-8 h-8 cursor-pointer"/>
                 </a>
             </div>
