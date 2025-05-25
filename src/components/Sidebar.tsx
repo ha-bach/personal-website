@@ -18,7 +18,7 @@ const Sidebar = () => {
             <p className="px-2 py-1 my-3 ">Software Developer</p>
 
             {/*  social media icons  */}
-            <div className="flex justify-evenly my-5 items-center md:w-full">
+            <div className="flex justify-center my-5 items-center md:w-full space-x-5">
                 {/*TODO: change GitHub pfp*/}
                 <a href="https://github.com/ha-bach">
                     <IoLogoGithub className="w-8 h-8 cursor-pointer"/>
