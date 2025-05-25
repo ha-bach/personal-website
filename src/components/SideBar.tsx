@@ -2,7 +2,7 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import Image from "next/image";
 
 
-const Sidebar = () => {
+const SideBar = () => {
     return (
         <div>
             {/*TODO: find a funny picture to put here*/}
@@ -31,4 +31,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar;
+export default SideBar;

@@ -25,7 +25,7 @@ const NavItem: React.FC<NavItemProps> = ({ activeItem, setActiveItem, name, rout
 };
 
 
-const Navbar = () => {
+const NavBar = () => {
 
     const [activeItem, setActiveItem] = React.useState<string>('');
 
@@ -48,4 +48,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default NavBar;
