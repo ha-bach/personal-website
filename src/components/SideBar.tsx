@@ -7,7 +7,7 @@ const SideBar = () => {
         <div>
             {/*TODO: find a funny picture to put here*/}
             <Image
-                src="/images/avatar.png"
+                src="/images/avatar.webp"
                 alt="My Profile"
                 width={128}
                 height={128}
